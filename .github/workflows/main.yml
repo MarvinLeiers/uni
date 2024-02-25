@@ -15,8 +15,6 @@ jobs:
 
     - name: Install Node.js
       uses: actions/setup-node@v2
-      with:
-        node-version: '14'
 
     - name: Clone Quartz repository
       run: git clone https://github.com/jackyzha0/quartz.git
