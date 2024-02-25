@@ -26,8 +26,11 @@ jobs:
       
     - name: Copy Obsidian files to Quartz content directory
       run: |
-        shopt -s extglob
-        mv /!(quartz) ${{ github.workspace }}/quartz/content/
+        for file in *; do
+          if [ "$file" != "quartz" ]; then
+            mv "$file" ${{ github.workspace }}/quartz/content/
+          fi
+        done
 
     - name: Change to Quartz directory
       run: cd quartz
