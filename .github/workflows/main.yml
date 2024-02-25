@@ -25,7 +25,7 @@ jobs:
       working-directory: ${{ github.workspace }}/quartz
       
     - name: Copy Obsidian files to Quartz content directory
-      run: cp -R ./* ${{ github.workspace }}/quartz/content
+      run: cp -R ./* ${{ github.workspace }}/quartz/content/
 
     - name: Change to Quartz directory
       run: cd quartz
