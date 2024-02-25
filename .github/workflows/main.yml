@@ -37,7 +37,7 @@ jobs:
       working-directory: ${{ github.workspace }}/quartz
 
     - name: Change default quartz.config.ts
-      run: echo "import { QuartzConfig } from "./quartz/cfg"
+      run: echo 'import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
 /**
@@ -126,10 +126,10 @@ const config: QuartzConfig = {
   },
 }
 
-export default config" > ${{ github.workspace }}/quartz/quartz.config.ts
+export default config' > ${{ github.workspace }}/quartz/quartz.config.ts
 
     - name: Change default quartz.layout.ts
-      run: echo "import { PageLayout, SharedLayout } from "./quartz/cfg"
+      run: echo 'import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
 // components shared across all pages
@@ -180,7 +180,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [],
-}" > $$ {{ github.workspace }}/quartz/quaartz.layout.ts
+}' > $$ {{ github.workspace }}/quartz/quaartz.layout.ts
 
     - name: Create and build Obsidian notes
       run: |
