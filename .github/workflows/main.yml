@@ -44,4 +44,4 @@ jobs:
       
     - name: copy file via ssh password
       run: |
-        sshpass -p ${{ secrets.SSH_PASSWORD }} scp -o StrictHostKeyChecking=no ${{ github.workspace}}/quartz/public/* ${{ secrets.VPS_USERNAME }}@${{ secrets.VPS_HOST }}:/home/${{ secrets.VPS_USERNAME }}/quartz/public
+        sshpass -p ${{ secrets.SSH_PASSWORD }} scp -r -o StrictHostKeyChecking=no ${{ github.workspace}}/quartz/public/* ${{ secrets.VPS_USERNAME }}@${{ secrets.VPS_HOST }}:/home/${{ secrets.VPS_USERNAME }}/quartz/public
