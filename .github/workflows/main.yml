@@ -41,12 +41,7 @@ jobs:
         npx quartz create
         npx quartz build
       working-directory: ${{ github.workspace }}/quartz
+      
     - name: copy file via ssh password
-      uses: appleboy/scp-action@v0.1.7
-      with:
-        host: ${{ secrets.VPS_HOST }}
-        username: ${{ secrets.VPS_USERNAME }}
-        password: ${{ secrets.SSH_PASSWORD }}
-        port: 22
-        source: "/quartz/public"
-        target: "/home/${{ secrets.VPS_USERNAME }}/quartz/public"
+      run: |
+        scp ${{ github.workspace}}/quartz/public/* ${{ secrets.VPS_USERNAME }}@${{ secrets.VPS_HOST }}:/home/${{ secrets.VPS_USERNAME }}/quartz/public
