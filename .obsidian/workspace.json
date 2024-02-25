@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rechnerstrukturen und Betriebssysteme/index.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rechnerstrukturen und Betriebssysteme/index.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rechnerstrukturen und Betriebssysteme/index.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rechnerstrukturen und Betriebssysteme/index.md"
+                "file": "index.md"
               }
             }
           }
@@ -148,11 +148,11 @@
   },
   "active": "6dd72d118ac13aed",
   "lastOpenFiles": [
-    "index.md",
+    "Rechnerstrukturen und Betriebssysteme/index.md",
     "Rechnerstrukturen und Betriebssysteme/Rechnerstrukturen/index.md",
     "Rechnerstrukturen und Betriebssysteme/Betriebssysteme/index.md",
+    "index.md",
     "Rechnerstrukturen und Betriebssysteme/Betriebssysteme/Scheduling.md",
-    "Rechnerstrukturen und Betriebssysteme/index.md",
     "Rechnerstrukturen und Betriebssysteme/Betriebssysteme/Untitled.md",
     "Application Management/Versionskontrolle/Versionskontrolle.md",
     "Rechnerstrukturen und Betriebssysteme",
