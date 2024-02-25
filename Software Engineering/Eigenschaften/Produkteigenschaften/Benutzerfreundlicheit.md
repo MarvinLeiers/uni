@@ -1,0 +1,1 @@
+Benutzerfreundlichkeit ist eine externe [[Produkteigenschaften|Produkteigenschaft]] und beschreibt die subjektive Wahrnehmung der Nutzungserfahrung während des Bedienens der Software. Ausschlaggebend für eine gute Benutzerfreundlichkeit können z.B. das [[Designer|Design]], die Konfigurierbarkeit oder die [[Performanz]] sein.

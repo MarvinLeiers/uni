@@ -1,0 +1,1 @@
+Robustheit ist eine externe [[Produkteigenschaften|Produkteigenschaft]], die angibt, wie Toleranz das System im Fehlerfall agiert. Als Fehlerfalls kann man z.B falsche Formate von Nutzereingaben verstehen oder defekte Hardware. Nicht robuste Software kann aber [[Korrektheit|korrekt]] sein, wenn Fehlerfälle nicht ausreichend in der [[Spezifikation]] berücksichtigt wurden.

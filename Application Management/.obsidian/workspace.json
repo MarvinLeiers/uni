@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "9bd04d915b541e6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "8155c26192f33c21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9f87d1bba1421ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Versionskontrolle/Git/Branching.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3f1d438df3a68472",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fb16a864c0f6b76c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Versionskontrolle/Git/Dateien ignorieren.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ab12b71912475b2e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9442a8943f5e0b76",
+    "type": "split",
+    "children": [
+      {
+        "id": "be0ec6b708a9019b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "022d3d80fcd4f7a2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e803e36350f7b303",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8d13186cc392d3e3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dc492db108a2496b",
+    "type": "split",
+    "children": [
+      {
+        "id": "19d400c36a5c934d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a4c5cdcbcc7d4c76",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6d9c430626e507d5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1319511d7b023712",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bf94dbe8fb73ea82",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "index.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "3f1d438df3a68472",
+  "lastOpenFiles": [
+    "Versionskontrolle/Versionskontrolle.md",
+    "Versionskontrolle/Pessimistische Zugriffskontrolle.md",
+    "Versionskontrolle/Optimistische Zugriffskontrolle.md",
+    "index.md",
+    "Versionskontrolle/Git/Dateien ignorieren.md",
+    "Versionskontrolle/Git.md",
+    "Application Management.md",
+    "Versionskontrolle/Git/Unterschied git merge vs.  git rebase.md",
+    "Versionskontrolle/Git/Branching.md",
+    "Versionskontrolle/Git/Git Interna.md",
+    "Versionskontrolle/Git/Interna",
+    "Versionskontrolle/Git",
+    "Versionskontrolle"
+  ]
+}
