@@ -32,6 +32,9 @@ jobs:
           fi
         done
 
+    - name: Copy quartz defaults
+      run: mv ${{ github.workspace }}/quartz_defaults/* ${{ github.workspace }}/quartz
+
     - name: Change to Quartz directory
       run: cd quartz
       working-directory: ${{ github.workspace }}/quartz
