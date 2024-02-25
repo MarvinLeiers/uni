@@ -21,14 +21,15 @@ jobs:
       working-directory: ${{ github.workspace }}
 
     - name: Install Quartz dependencies
-      run: | 
-        cd quartz
-        npm install
+      run: npm install
+      working-directory: ${{ github.workspace }}/quartz
+
+    - name: Change to Quartz directory
+      run: cd quartz
       working-directory: ${{ github.workspace }}/quartz
 
     - name: Create and build Obsidian notes
       run: |
-        cd quartz
         npx quartz create
         npx quartz build
       working-directory: ${{ github.workspace }}/quartz
@@ -39,5 +40,5 @@ jobs:
         host: ${{ secrets.VPS_HOST }}
         username: ${{ secrets.VPS_USERNAME }}
         password: ${{ secrets.SSH_PASSWORD }}
-        source: "/path/to/built/files"
-        target: "/path/on/vps"
+        source: "/quartz/public"
+        target: "/home/${{ secrets.VPS_USERNAME }}/quartz/public"
