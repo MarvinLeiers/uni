@@ -1,4 +1,4 @@
-name: Deploy Obsidian Notes
+name: Deploy Obsidian Notes to VPS
 
 on:
   push:
