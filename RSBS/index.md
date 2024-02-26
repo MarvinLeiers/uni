@@ -1,5 +1,5 @@
 ---
 title: Rechnerstrukturen und Betriebssysteme
 ---
-- [[RSBS/Rechnerstrukturen/index|Rechnerstrukturen]]
-- [[RSBS/Betriebssysteme/index|Betriebssysteme]]
+- [[RSBS/RS/index|Rechnerstrukturen]]
+- [[RSBS/BS/index|Betriebssysteme]]
