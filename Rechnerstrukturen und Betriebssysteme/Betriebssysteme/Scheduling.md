@@ -1,2 +1,2 @@
 #### Scheduling-Algorithmen
-- First-In-First-Out (FIFO)
+- [[FIFO|First-In-First-Out (FIFO)]]
