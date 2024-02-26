@@ -8,3 +8,9 @@
 
 #### Merge Konflikte
 Nicht immer ist ein Merge erfolgreich. Werden von zwei unterschiedlichen Entwicklung an der gleichen Datei widersprüchliche Änderungen vorgenommen, weiß git nicht, welche Änderungen bei einem Merge übernommen werden sollen. In solchen Szenarien müssen die Merge Konflikte manuell von einem Entwickler behoben werden. Dabei wird entschieden, welche Änderungen in die finale Datei übernommen und welche Änderungen verworfen werden sollen.
+
+> [!info] Info
+> Hilfreich ist zu wissen, was der [[Unterschied git merge vs. git rebase|Unterschied von git merge und git rebase]]] ist
+
+
+
