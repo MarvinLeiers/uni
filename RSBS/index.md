@@ -1,5 +1,4 @@
 ---
 title: Rechnerstrukturen und Betriebssysteme
 ---
-- [[RSBS/RS/index|Rechnerstrukturen]]
-- [[RSBS/BS/index|Betriebssysteme]]
+Das Modul ist in zwei große Themenbereiche aufgeteilt, welche hier abgerufen werden können.
