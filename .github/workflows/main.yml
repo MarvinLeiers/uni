@@ -22,29 +22,26 @@ jobs:
 
     - name: Install Quartz dependencies
       run: npm install
-      working-directory: ${{ github.workspace }}/quartz
-
-    - name: Copy quartz defaults
-      run: mv ${{ github.workspace }}/.quartz_defaults/* ${{ github.workspace }}/quartz
+      working-directory: ${{ github.workspace }}/custom-quartz
       
     - name: Copy Obsidian files to Quartz content directory
       run: |
         for file in *; do
           if [ "$file" != "quartz" ]; then
-            mv "$file" ${{ github.workspace }}/quartz/content/
+            mv "$file" ${{ github.workspace }}/custom-quartz/content/
           fi
         done
 
     - name: Change to Quartz directory
       run: cd quartz
-      working-directory: ${{ github.workspace }}/quartz
+      working-directory: ${{ github.workspace }}/custom-quartz
 
     - name: Create and build Obsidian notes
       run: |
         npx quartz create
         npx quartz build
-      working-directory: ${{ github.workspace }}/quartz
+      working-directory: ${{ github.workspace }}/custom-quartz
       
     - name: copy file via ssh password
       run: |
-        sudo sshpass -p ${{ secrets.SSH_PASSWORD }} scp -r -o StrictHostKeyChecking=no ${{ github.workspace}}/quartz/public/* ${{ secrets.VPS_USERNAME }}@${{ secrets.VPS_HOST }}:/home/${{ secrets.VPS_USERNAME }}/quartz/public
+        sudo sshpass -p ${{ secrets.SSH_PASSWORD }} scp -r -o StrictHostKeyChecking=no ${{ github.workspace}}/custom-quartz/public/* ${{ secrets.VPS_USERNAME }}@${{ secrets.VPS_HOST }}:/home/${{ secrets.VPS_USERNAME }}/quartz/public
