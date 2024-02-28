@@ -17,7 +17,7 @@ jobs:
       uses: actions/setup-node@v2
 
     - name: Clone Quartz repository
-      run: git clone https://github.com/jackyzha0/quartz.git
+      run: git clone https://github.com/MarvinLeiers/custom-quartz.git
       working-directory: ${{ github.workspace }}
 
     - name: Install Quartz dependencies
