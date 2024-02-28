@@ -27,7 +27,7 @@ jobs:
     - name: Copy Obsidian files to Quartz content directory
       run: |
         for file in *; do
-          if [ "$file" != "quartz" ]; then
+          if [ "$file" != "custom-quartz" ]; then
             mv "$file" ${{ github.workspace }}/custom-quartz/content/
           fi
         done
