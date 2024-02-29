@@ -1,0 +1,16 @@
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  get_files:
+    name: run_on_pr
+    runs-on: ubuntu-latest
+
+  - name: Checkout
+    uses: actions/checkout@v3
+    with:
+       fetch-depth: 0
+
+   - name: Get changes
+    run: git diff --name-only ${{ github.event.before }} ${{ github.event.after }}
