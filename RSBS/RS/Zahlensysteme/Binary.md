@@ -1,3 +1,6 @@
+---
+title: Binärsystem
+---
 Zahlen im Binärsystem bestehen aus den Ziffern "0" und "1". Eine Ziffer innerhalb einer Zahl wird als Bit bezeichnet. Das Bit ganz links wird als Most-Significant-Bit (MSB) bezeichnet, während das Bit ganz rechts als Least-Significant-Bit (LSB) bezeichnet wird. 
 
 #### Umwandlung ins Dezimalsystem
