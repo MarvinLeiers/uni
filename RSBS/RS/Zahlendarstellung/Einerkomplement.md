@@ -1,3 +1,6 @@
+---
+title: 4. Einerkomplement
+---
 Das Einerkomplement einer positiven Zahl in binärer Schreibweise bildet man, in dem man jedes Bit umkehrt. Aus 0 wird 1 und aus 1 wird 0. Dabei entspricht das erste Bit eines positiven Vorzeichens, wenn `0` und eines negativen Vorzeichens, wenn `1`. 
 
 > [!example] Beispiel

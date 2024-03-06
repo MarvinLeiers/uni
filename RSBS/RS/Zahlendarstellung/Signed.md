@@ -1,5 +1,5 @@
 ---
-title: Signed Numbers
+title: 3. Signed Numbers
 ---
 Da das [[Binary|Binärsystem]] nur positive Zahlen darstellen kann, hat man sich "Signed" Zahlendarstellungen ausgedacht. Das erste Bit fungiert hier als Vorzeichen, also `+` oder `-`. Steht an der Stelle des MSB eine `0` hat man eine positive Zahl, während eine `1` eine negative Zahl bedeutet.
 

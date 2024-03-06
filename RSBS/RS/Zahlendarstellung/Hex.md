@@ -1,5 +1,5 @@
 ---
-title: Hexadezimalsystem
+title: 2. Hexadezimalsystem
 ---
 Zahlen im Hexadezimalsystem bestehen aus den Ziffern 0-9 und A-F, wobei A-F den Ziffern 10, 11, 12, 13, 14 und 15 entsprechen. Da die Folge von 1 und 0 (`10`) nicht von einer Zehn unterschieden werden kann, hat man die Buchstaben A-F als Ergänzung eingeführt. ^80dc02
 
