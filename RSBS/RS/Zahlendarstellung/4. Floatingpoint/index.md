@@ -1,7 +1,7 @@
 ---
 title: Fließkommazahlen
 ---
-Wir haben gelernt, wie man mithilfe des [[5. Zweierkomplement|Zweierkomplements]] negative Zahlen in binärer Schreibweise darstellt, mit denen man mathematisch korrekte Berechnungen durchführen kann. In diesem Kapitel werden die Charakteristiken der Gleitkommadarstellung im Binärsystem näher gebracht, um Kommazahlen darstellen zu können. 
+Wir haben gelernt, wie man mithilfe des [[3.2. Zweierkomplement|Zweierkomplements]] negative Zahlen in binärer Schreibweise darstellt, mit denen man mathematisch korrekte Berechnungen durchführen kann. In diesem Kapitel werden die Charakteristiken der Gleitkommadarstellung im Binärsystem näher gebracht, um Kommazahlen darstellen zu können. 
 
 Fließkommazahlen sind in dem Standard [IEEE754](https://en.wikipedia.org/wiki/IEEE_754) definiert.
 
