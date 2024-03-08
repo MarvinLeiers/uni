@@ -22,3 +22,6 @@ Eine Fließkommazahl besteht aus einem Sign Bit an erster Stelle, also einem Bit
 > 3. Mantisse -> `010100`
 > 4. $2+127=129$ -> `10000001`
 > 5. `0 10000001 010100000000000000000`
+
+#### Weitere Themen
+- [[Addition]] von Fließkommazahlen
