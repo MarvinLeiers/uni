@@ -25,3 +25,4 @@ Eine Fließkommazahl besteht aus einem Sign Bit an erster Stelle, also einem Bit
 
 #### Weitere Themen
 - [[Addition]] von Fließkommazahlen
+- [[Multiplikation]] von Fließkommazahlen
