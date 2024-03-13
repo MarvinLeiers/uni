@@ -5,7 +5,7 @@ title: Rechnerstrukturen
 - [[RSBS/RS/Zahlendarstellung/index|Zahlensysteme (HEX, Binär, Dezimal)]]
 - [[RSBS/RS/Logische Schaltungen/index|Logische Schaltungen]]
 - Logische Schaltungen Vereinfachen
-	- - [[KV-Diagramme]]
-	- - [[QMC]]
-- [[Flip Flops und Speicher]]
+	-  [[KV-Diagramme]]
+	- [[QMC]]
+- [[RSBS/RS/Storage/index]]
 - [[Architektur und Assembler]]
