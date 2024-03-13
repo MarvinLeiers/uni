@@ -7,5 +7,5 @@ title: Rechnerstrukturen
 - Logische Schaltungen Vereinfachen
 	-  [[KV-Diagramme]]
 	- [[QMC]]
-- [[RSBS/RS/Storage/index]]
+- [[RSBS/RS/Storage/index|Speicher]]
 - [[Architektur und Assembler]]
