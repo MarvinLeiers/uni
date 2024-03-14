@@ -8,4 +8,5 @@ title: Rechnerstrukturen
 	-  [[KV-Diagramme]]
 	- [[QMC]]
 - [[RSBS/RS/Storage/index|Speicher]]
+- [[Clocks]]
 - [[Architektur und Assembler]]
